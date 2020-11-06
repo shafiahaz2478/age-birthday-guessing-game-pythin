@@ -6,7 +6,7 @@ this a age-birthday guessing game
 to get running you must have pip and  python3 
 
 # running the program
-If you are in linux just run run.sh
+If you are in linux just run run.sh\n
 or
 do it your self
 you need to install module colored 
