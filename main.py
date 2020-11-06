@@ -22,7 +22,7 @@ colour9=fg("green")
 for x in (f"{for_main_screen}welcome to the age and birthday guessing game.\nI know that you have known these tricks but i just needed to make a programm of it and have fun \n \n"):
    sys.stdout.write(x)
    sys.stdout.flush()
-   time.sleep(0.03)
+   time.sleep(0.04)
 	
 time.sleep(0.5)
 
@@ -30,7 +30,7 @@ time.sleep(0.5)
 for x in (f"{for_main_screen}which do i want to guess?age or birthday? \n>>> "):
   sys.stdout.write(x)
   sys.stdout.flush()
-  time.sleep(0.03)
+  time.sleep(0.04)
 
 age_birthday=input()
 
@@ -41,13 +41,13 @@ if age_birthday == "age" or age_birthday == "age".upper:
   for x in ((f"\n\n{age}pick a number from 1 to 10 \n>>> ")):
     sys.stdout.write(x)
     sys.stdout.flush()
-    time.sleep(0.03)
+    time.sleep(0.04)
 
   number_picking= int(input())
   for x in (f"\n\n{age}i am going to multiply the number which you picked by 2 \nmultiplying by 2........\n"):
     sys.stdout.write(x)
     sys.stdout.flush()
-    time.sleep(0.03)
+    time.sleep(0.04)
 
   
   multiplied = int(number_picking * 2)
@@ -56,7 +56,7 @@ if age_birthday == "age" or age_birthday == "age".upper:
   for x in ("now i am going to add 5 to the number\n"):
     sys.stdout.write(x)
     sys.stdout.flush()
-    time.sleep(0.03)
+    time.sleep(0.04)
 
 
   adding= int(multiplied + 5)
@@ -65,7 +65,7 @@ if age_birthday == "age" or age_birthday == "age".upper:
   for x in ("now i will times the number by 50\n"):
     sys.stdout.write(x)
     sys.stdout.flush()
-    time.sleep(0.03)
+    time.sleep(0.04)
 
 
 
@@ -74,7 +74,7 @@ if age_birthday == "age" or age_birthday == "age".upper:
   for x in ("have you had your birthday this year?(yes/no) \n>>> "):
      sys.stdout.write(x)
      sys.stdout.flush()
-     time.sleep(0.03)
+     time.sleep(0.04)
 
 
   born_year=input()
@@ -83,7 +83,7 @@ if age_birthday == "age" or age_birthday == "age".upper:
     for x in (f"\n\n{age_born_yes}which is the year you were born \n>>> "):
       sys.stdout.write(x)
       sys.stdout.flush()
-      time.sleep(0.03)
+      time.sleep(0.04)
 
 
     a=input()
@@ -93,7 +93,7 @@ if age_birthday == "age" or age_birthday == "age".upper:
     for x in (f"\n\n{age_born_yes}as you had your birthday i will add 1770 to the answer \nadding 1770\n\n"):
       sys.stdout.write(x)
       sys.stdout.flush()
-      time.sleep(0.03)
+      time.sleep(0.04)
 
 
 
@@ -104,7 +104,7 @@ if age_birthday == "age" or age_birthday == "age".upper:
     for x in (f"now i will subtract the ans by your year of birth  {year} \nsubtracting........\n"):
       sys.stdout.write(x)
       sys.stdout.flush()
-      time.sleep(0.03)
+      time.sleep(0.04)
 
     
     time.sleep (2)
@@ -113,13 +113,13 @@ if age_birthday == "age" or age_birthday == "age".upper:
     for x in (subracted_of_string , "\n\n"):
       sys.stdout.write(x)
       sys.stdout.flush()
-      time.sleep(0.03)
+      time.sleep(0.04)
 
 
     for x in (f"the first digit of the number is the number you picked and the last two digits is your age \n"):
       sys.stdout.write(x)
       sys.stdout.flush()
-      time.sleep(0.03)
+      time.sleep(0.04)
     exit
     
   elif born_year=="no":
@@ -127,7 +127,7 @@ if age_birthday == "age" or age_birthday == "age".upper:
     for x in (f"\n\n{age_born_no}which is the year you were born \n>>> "):
       sys.stdout.write(x)
       sys.stdout.flush()
-      time.sleep(0.03)
+      time.sleep(0.04)
 
 
     a=input()
@@ -137,7 +137,7 @@ if age_birthday == "age" or age_birthday == "age".upper:
     for x in (f"\n\nas you had your birthday i will add 1769 to the answer \nadding 1769\n\n"):
       sys.stdout.write(x)
       sys.stdout.flush()
-      time.sleep(0.03)
+      time.sleep(0.04)
 
 
 
@@ -148,7 +148,7 @@ if age_birthday == "age" or age_birthday == "age".upper:
     for x in (f"now i will subtract the ans by your year of birth  {year} \nsubtracting........\n"):
       sys.stdout.write(x)
       sys.stdout.flush()
-      time.sleep(0.03)
+      time.sleep(0.04)
 
     
     time.sleep (2)
@@ -157,13 +157,13 @@ if age_birthday == "age" or age_birthday == "age".upper:
     for x in (subracted_of_string , "\n\n"):
       sys.stdout.write(x)
       sys.stdout.flush()
-      time.sleep(0.03)
+      time.sleep(0.04)
 
 
     for x in (f"the first digit of the number is the number you picked and the last two digits is your age \n"):
       sys.stdout.write(x)
       sys.stdout.flush()
-      time.sleep(0.03)
+      time.sleep(0.04)
     exit
     
     
@@ -175,7 +175,7 @@ elif age_birthday=="birthday":
   for x in (f"{birthday}what is the date of your birth.like 16th in january\n>>> "):
     sys.stdout.write(x)
     sys.stdout.flush()
-    time.sleep(0.03)
+    time.sleep(0.04)
 
 
   date_asking=int(input())
@@ -185,7 +185,7 @@ elif age_birthday=="birthday":
   for x in ("now im going to multiply your birthdate by 2 \n"):
     sys.stdout.write(x)
     sys.stdout.flush()
-    time.sleep(0.03)
+    time.sleep(0.04)
 
   time.sleep(1)
   multiply_birthdate= date_asking * 2
@@ -194,7 +194,7 @@ elif age_birthday=="birthday":
   for x in ("now i am going to add 5 to your birthdate \n"):
     sys.stdout.write(x)
     sys.stdout.flush()
-    time.sleep(0.03)
+    time.sleep(0.04)
 
   time.sleep(1)
   adding_birthdate5= multiply_birthdate + 5
@@ -203,7 +203,7 @@ elif age_birthday=="birthday":
   for x in ("now i am going to multiply the number by 50\n"):
     sys.stdout.write(x)
     sys.stdout.flush()
-    time.sleep(0.03)
+    time.sleep(0.04)
 
     
 
@@ -214,7 +214,7 @@ elif age_birthday=="birthday":
   for x in ("multiplying.......\n"):
     sys.stdout.write(x)
     sys.stdout.flush()
-    time.sleep(0.03)
+    time.sleep(0.04)
 
   time.sleep (2)
 
@@ -222,14 +222,14 @@ elif age_birthday=="birthday":
   for x in (f"{fifty_multiply}\n\n"):
     sys.stdout.write(x)
     sys.stdout.flush()
-    time.sleep(0.03)
+    time.sleep(0.04)
 
   
 
   for x in ("what is the number of the month you were born?\n>>> "):
     sys.stdout.write(x)
     sys.stdout.flush()
-    time.sleep(0.03)
+    time.sleep(0.04)
 
   asking_month2=input()
 
@@ -244,19 +244,19 @@ elif age_birthday=="birthday":
   for x in (f"Now I am going to add the number of month to the answer\n{c}\n\n"):
     sys.stdout.write(x)
     sys.stdout.flush()
-    time.sleep(0.03)
+    time.sleep(0.04)
     
 
   for x in ("Finally, I am going to subtract 250 from the answer\n\n"):
     sys.stdout.write(x)
     sys.stdout.flush()
-    time.sleep(0.03)
+    time.sleep(0.04)
   print(c)
   result = c - 250
-  for x in ( f"The answer is {result}.\n\nThe first one/two digits in the three/four digit number is/are the date of you birthday\n\nThe last two digits are the month of your birthday \n"):
+  for x in ( f"The answer is {result}.\n\nThe first one/two digits in the three/four digit number is/are the date of you birthday\n\nThe last two digits are the month of your birthday \n {colour6}"):
         sys.stdout.write(x)
         sys.stdout.flush()
-        time.sleep(0.03)
+        time.sleep(0.04)
 
   exit   
 
